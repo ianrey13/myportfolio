@@ -384,17 +384,18 @@ section.active{
     justify-content: center;
     text-align: center;
 }
-.skills-container{
+.skills-container .front-skills{
     display: flex;
     flex-direction: column;
 }
-.frontend-container{
+
+.frontend-container .front-skills{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 2rem;
     height: 30rem;
 }
-.frontend-container .skills-box{
+.front-skills .skills-box{
     border-radius: .8rem;
     padding: 3rem 2.5rem;
     background: var(--second-bg-color);
@@ -410,7 +411,7 @@ section.active{
     color: var(--main-color);
 }
 
-.backend-container{
+.backend-container .back-skills{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 2rem;
@@ -605,11 +606,20 @@ section.active{
         margin-left: 0;
         margin-bottom: 2rem;
     }
-
+    
     .contact-box form{
         padding: 2.5rem 3rem 3.5rem;
     }
     .contact-box h2{
         font-size: 3.5rem;
     }
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40rem;
+        margin-bottom: 15rem;
+    }
+    
+
+    
 }
