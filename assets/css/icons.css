@@ -1,0 +1,58 @@
+.html-logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url('/assets/imgs/icons/html5-line.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.css-logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url('/assets/imgs/icons/bxl-css3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.js-logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url('/assets/imgs/icons/bxl-javascript.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.php-logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url('/assets/imgs/icons/bxl-php.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.java-logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url('/assets/imgs/icons/bxl-java.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sql-logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;;
+    background-image: url('/assets/imgs/icons/mysql-logo-svgrepo-com.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.white-icon {
+    filter: brightness(0) invert(1); /* turns black to white */
+}
+
+
