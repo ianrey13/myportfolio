@@ -619,14 +619,16 @@ section.active{
         gap: 40rem;
         margin-bottom: 15rem;
     }
-    
+    .home-detail h1{
+        font-size: 3.3rem;
+    }
     .home-detail h2{
         display: inline-block;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         margin-top: -1rem;
     }
     .home-detail h2 span{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     
