@@ -620,6 +620,15 @@ section.active{
         margin-bottom: 15rem;
     }
     
-
+    .home-detail h2{
+        display: inline-block;
+        font-size: 3.5rem;
+        margin-top: -1rem;
+    }
+    .home-detail h2 span{
+        font-size: 3rem;
+    }
+    
+    
     
 }
